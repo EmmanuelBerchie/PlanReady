@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deselect unwanted days "
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ToggleButton
+            android:id="@+id/tog_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="M"
+            android:textOn="M"
+
+            android:textSize="12sp" />
+
+        <ToggleButton
+            android:id="@+id/tog_tus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Tue"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="T"
+            android:textOn="T"
+
+            />
+
+        <ToggleButton
+            android:id="@+id/tog_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="wed"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="W"
+            android:textOn="W" />
+
+        <ToggleButton
+            android:id="@+id/tog_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Thu"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="T"
+            android:textOn="T" />
+
+        <ToggleButton
+            android:id="@+id/tog_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Fri"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="F"
+            android:textOn="F" />
+
+        <ToggleButton
+            android:id="@+id/tog_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Sat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="S"
+            android:textOn="S" />
+
+        <ToggleButton
+            android:id="@+id/tog_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Sun"
+            android:textColor="@color/colorPrimaryDark"
+            android:textOff="S"
+            android:textOn="S" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Cancel"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/txt_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Done"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+</LinearLayout>
